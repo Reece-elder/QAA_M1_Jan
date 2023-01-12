@@ -1,0 +1,14 @@
+clear - clears the terminal
+git status - shows us the status of our repo
+
+git add <file name> - Adds that file to the 'staging area' temp space to keep track of changes 
+
+commit - Snapshot of the changes that have been made
+git commit -m "added file1 and file2"
+
+git push - pushes the commits up to github (remote repo) 
+
+When in vim:
+i to enter insert mode, which lets you add text
+esc to exit insert mode
+:wq to save and quit
