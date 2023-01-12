@@ -1,0 +1,4 @@
+git branch - Shows us all available branches
+git branch <name of branch> - Make that branch
+git checkout <name of branch> - Changes to and checksout that branch
+git checkout -b <new branch name> - Makes and checkouts to this branch
