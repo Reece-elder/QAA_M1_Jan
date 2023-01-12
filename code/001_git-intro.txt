@@ -1,0 +1,35 @@
+reece - user
+DESKTOP-SB... - Computer
+MINGW64 - OS
+~ tilde Current file location
+
+ls - List contents, lists all stuff in this place
+cd <folder name> - change directory, cd <file name>
+cd .. - takes you back a folder
+touch <file name> - Makes a file of that name
+mkdir <folder name> - Makes a folder of that name
+rm <file name> - removes a file of name
+echo "text" - Outputs the text (default is to the terminal) 
+echo "text" > <other file> - Outputs text into the file
+cat <file name> - display all the contents of the file
+
+# Making a Readme with this text
+echo "# QAA_M1_Jan_Demo" >> README.md
+
+# Making a new repo in this location
+git init
+
+# Telling GitHub repo to add README.md
+git add README.md
+git commit -m "first commit"
+
+(if it says I don't know who you are) 
+git config --global user.email "your git email"
+git config --global user.name "git username"
+
+# Setting our main branch to be called main
+git branch -M main
+
+# Telling Git the remote repo (main repo) is stored on github @ url
+git remote add origin https://github.com/Reece-elder/QAA_M1_Jan_Demo.git
+git push -u origin main
