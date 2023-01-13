@@ -1,0 +1,45 @@
+user: 
+  name: reece
+  favColours:
+  - blue
+  - green
+  - purple
+
+4 space indentation
+user: 
+    hobbies:
+      - baking
+      - kite
+
+
+Basic YAML to describe a cake
+tiers
+icing 
+colour
+calories
+base
+ingredients
+flavour
+candles
+gluten_free
+
+cakes: 
+- colour: brown
+  tiers: 3
+  gluten_free: true
+  ingredients: ["flour", "eggs", "milk", "choc"]
+  candles: 
+  - colour: purple
+    shape: 2
+  - colour: green
+    shape: 7
+    sparkler: true
+
+In a notepad or IDE, or with Nano write a YAML file to configure 3+ cafe orders
+- price of drink
+- size
+- type
+- dairy free
+- extras (as an array)
+- name of customer
+- food orders (as array of objects atleast 2)
