@@ -1,0 +1,20 @@
+git add . - Adds EVERYTHING in this location to the staging area 
+
+git restore --staged <file name> to remove from staging area
+
+touch .gitignore (creating a file to specify what we want guit to ignore)
+
+Exercise - Create the files password.txt, secrets.md, keys, hello.txt
+Create a .gitignore that ignores all of the files apart from hello.txt 
+
+# Ignore this file
+<name of file>
+
+# Ignore all file types ending in this
+*.txt
+
+# Ignore all files called hello that end in different things
+hello.*
+
+# ! to reverse the rules for a specific file
+!hello.txt
